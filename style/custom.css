@@ -1,0 +1,311 @@
+/* navbar scrol */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Liu+Jian+Mao+Cao|Lobster|Pacifico&display=swap&subset=chinese-simplified,cyrillic,cyrillic-ext,latin-ext,vietnamese');
+
+body {
+    box-sizing: border-box;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    letter-spacing: 0.1rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.nama-doang {
+    margin-left: -38px;
+    font-family: 'Lobster', cursive;
+    color: #a289fa;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#home {
+    min-height: 100vh;
+}
+
+#aboutme {
+    min-height: 100vh;
+}
+
+#pengalaman {
+    min-height: 100vh;
+}
+
+#Skill {
+    min-height: 100vh;
+}
+
+#contact {
+    min-height: 80vh;
+}
+
+.navbar {
+    min-width: 100%;
+    margin: 0 auto;
+    height: 5vh;
+    padding: 25px;
+    position: fixed;
+    background-color: aquamarine;
+}
+
+.navbar,
+ul {
+    list-style: none;
+    float: none;
+    display: inline-flex;
+}
+
+.navbar,
+ul,
+a {
+    color: black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.navbar-brand {
+    padding-left: 110px;
+}
+
+#navb {
+    padding-right: 25px;
+}
+
+.page-scroll:hover {
+    text-decoration: none;
+}
+
+.nav-item-contact:hover {
+    font-weight: bold;
+}
+.nav-item-work:hover {
+    font-weight: bold;
+}
+.nav-item-kerja:hover {
+    font-weight: bold;
+}
+.nav-item-aboutme:hover {
+    font-weight: bold;
+}
+.nav-item-home:hover {
+    font-weight: bold;
+}
+
+
+/* Animation Gambar */
+
+.contoh {
+    padding-top: 100px;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+#animasi-bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+}
+
+#nav1 li.active a {
+    background-color: blue;
+}
+
+/* hi pandu zmr */
+
+/* end pandu zmr */
+
+/* Close Animation */
+
+.btn-start {
+    font-family: 'Popins';
+    font-size: 16px;
+    font-weight: 400;
+    background: #a289fa;
+    border: 0;
+    padding: 10px 35px 10px 35px;
+    color: #e0e0e0;
+}
+
+.btn-start:hover {
+    background: rgb(143, 221, 252);
+}
+
+.btn-primary {
+    font-family: 'Poppins';
+    background: #FF9900;
+    border: 0;
+    padding: 10px 35px 10px 35px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-primary:hover {
+    background: rgb(235, 185, 110);
+    border: 0;
+}
+
+.btn-primary-lets {
+    font-family: 'Poppins';
+    font-weight: 400;
+    background: rgb(241, 238, 238);
+    border: 0;
+}
+
+.btn-primary-lets:hover {
+    background: rgb(143, 221, 252);
+    border: 0;
+}
+
+.panduzmr h1 {
+    color: grey;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+}
+
+.panduzmr p {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.tentangku {
+    padding-top: 70px;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.social:hover {
+    border-radius: 10px;
+    color: #2ECC0D;
+    background-color: rgba(207, 171, 158, 0.253);
+    transition: 2s;
+    duration: 2s;
+    border: dotted 5px rgba(173, 152, 194, 0.24);
+}
+
+.btn-custom {
+    border: 1px solid;
+}
+
+/* contact me */
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open>.dropdown-toggle.btn-custom {
+    color: #a289fa;
+}
+
+
+.form-zamora .form-control {
+    box-shadow: none !important;
+    height: 50px;
+    border: 2px solid #e0e0e0;
+}
+
+.form-zamora textarea.form-control {
+    height: auto;
+}
+
+.contact_detail-title {
+    font-size: 18px;
+}
+
+/* pengalaman */
+.experience {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    text-align: center;
+}
+
+.beberapa {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    text-align: center;
+}
+
+/* end pengalman */
+
+/* skill */
+#kemampuan {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    color: #a289fa;
+}
+
+hr.pacman {
+    border: 0;
+    height: 25px;
+    background-image: url('http://www.formget.com/wp-content/uploads/2014/12/type_3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.services-boxes {
+    border: 1px solid #e8e8e8;
+}
+
+.services-boxes .services-boxes-icon i {
+    font-size: 44px;
+}
+
+.services-boxes .services-title-border {
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    transition: all 0.5s;
+}
+
+.services-boxes:hover .services-title-border {
+    width: 60px;
+}
+
+.service-box {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+}
+
+.services-boxes h5 {
+    font-weight: 600;
+}
+
+.service-box .service-content h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.service-box .service-content p {
+    font-size: 15px;
+}
+
+#change {
+    font-family: 'Pacifico', cursive;
+    color: blueviolet;
+    font-weight: bold;
+}
